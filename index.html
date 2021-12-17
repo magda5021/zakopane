@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Author: Magdalena Frackiewicz
+    Project: A Tour Around Poland
+	
+	All rights reserved.
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Zakopane</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+        background: #f1f1f1;
+    }
+    
+    /* Header/Blog Title */
+    .header {
+        padding: 50px;
+        text-align: center; 
+        background: white;
+        background-image: url("tatpan5.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        
+    }
+    
+    .header h1 {
+        font-size: 50px;
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+        float: left;
+        width: 75%;
+    }
+    
+    /* Right column */
+    .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+    }
+    
+    /* image */
+    .image1 {
+        background-color: #aaa;
+        background-image: url("zakopane.jpg");
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+        }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+        .topnav a {
+        float: none;
+        width: 100%;
+        }
+    }
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Zakopane</h1>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+        <h2>Zakopane</h2>
+        <div class="image1" style="height:100px;"></div>
+        <p>Zakopane is a town in the extreme south of Poland, in the southern part of the Podhale region at the foot of the Tatra Mountains.
+            Zakopane is a centre of Goral culture and is often referred to as "the winter capital of Poland". It is a popular destination for 
+            mountaineering, skiing, and tourism. Zakopane lies near Poland's border with Slovakia, in a valley between the Tatra Mountains and 
+            Gubalowka Hill. It can be reached by train or bus from the province capital, Krakow, about two hours away. Zakopane lies 800-1,000 metres 
+            above sea level and centres on the intersection of its Krupowki and Kosciuszko Streets. The Zakopane Style of Architecture is an architectural 
+            mode inspired by the regional art of Poland's highland region known as Podhale. Drawing on the motifs and traditions in the buildings of the 
+            Carpathian Mountains, the style was pioneered by Stanislaw Witkiewicz and is now considered a core tradition of the Goral people. During the visit in 
+            Zakopane everyone must try local cheese called oscypki. 
+        </p>
+        
+    </div>
+    <div class="card">
+      </div>
+        <h2>Restaurants</h2>
+        <div class="row">
+            <div class="column">
+              <img src="gfood.jpg" alt="nines" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="Oscypki.jpg" alt="pierogi" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="kielba.jpg" alt="vege" style="width:100%">
+            </div>
+        <p><b>1. Goralska Tradycja</b></p>
+        The restaurant offers delicious local food that will send you on a magical trip of discovering new tastes. You will be fascinated with their goralskich/highlander's
+        traditional dishes but also the restaurant design that was created based on zakopianski style.  
+        <ul style="list-style-type:square; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:130%;color: rgb(110, 36, 76);"></ul>
+        <li>For more information, menue, and prices visit: <a href="http://goralskatradycja.pl/">Goralska Tradycja</a></li>
+        <p><b>2. Karcma Holny</b></p>
+        Another restaurant that offers regional food. Karcma Holny offers catering, space for weddings or other events and they can hold up to 500 people. The restaurant 
+        is located near by Doliny Koscielskiej and Doliny Malej Laki. 
+        <ul style="list-style-type:square; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:130%;color: rgb(110, 36, 76);"></ul>
+        <li>For more information, menue, and prices visit: <a href="http://www.holny.zakopane.biz//">Karcma Holny</a></li>
+        <p><b>3. Goralski Browar</b></p>
+        Goralski Browar offers europen dishes as well as regional one. You can find there food for breakfast, lunch or dinner. In the menue you wil find traditiona food, 
+        burgers, salads and pastas that are made with the heart. 
+        <ul style="list-style-type:square; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:130%;color: rgb(110, 36, 76);"></ul>
+        <li>For more information, menue, and prices visit: <a href="https://www.goralskibrowar.com/"></a>Goralski Browar</li>
+        <p><b>4. Karczma Zapiecek</b></p>
+        A restaurant in the heart of the iconic Krupowki Street, where guests are served dishes prepared according to traditional recipes of Podhale and Old Polish cuisine. 
+        The cozy interior will encourage free, unhurried taste. 
+        <ul style="list-style-type:square; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:130%;color: rgb(110, 36, 76);"></ul>
+        <li>For more information, menue, and prices visit: <a href="https://www.karczmazapiecek.pl/">Zapiecek</a></li>
+    </div>
+    </div>
+    <div class="rightcolumn">
+    <div class="card">
+        <div class="flag" style="height:50px;"></div>
+    </div>
+    <div class="card">
+        <h3>Places to visit</h3>
+        <ul>
+            <li>Tatra National Park/Mountains</li>
+            <li>Morskie Oko</li>
+            <li>Giewont Mountain</li>
+            <li>Museum Oscypka</li>
+            <li>Kasprowy Wierch</li>
+            <li>Gubalowka</li>
+            <li>Strazyska Valley</li>
+            <li>Krupowki Street</li>
+            <li>Lazienki Park</li>
+            <li>Siklawica</li>
+        </ul>
+    </div><br/>
+
+    <div class="gallery">
+        <a target="_blank" href="morskie-oko.jpg">
+          <img src="morskie-oko.jpg" alt="Cinque Terre" class="center">
+        </a>
+        <div class="desc">Morskie Oko</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="tatra.jpg">
+          <img src="tatra.jpg" alt="Forest" class="center">
+        </a>
+        <div class="desc">Tatra National Park</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="kasprowyWierch.jpg">
+          <img src="kasprowyWierch.jpg" alt="Northern Lights" class="center">
+        </a>
+        <div class="desc">Kasprowy Wierch</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="giewont.jpg">
+          <img src="giewont.jpg" alt="Mountains" class="center">
+        </a>
+        <div class="desc">Giewont</div>
+    </div>
+
+
+</body>
+</html>
